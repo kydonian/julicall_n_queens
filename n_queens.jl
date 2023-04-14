@@ -1,6 +1,5 @@
 # Solve N-Queens, source largely from
 # https://github.com/jump-dev/JuMP.jl/blob/master/docs/src/tutorials/linear/n-queens.jl
-# usage: julia --project n_queens.jl NUM_QUEENS
 
 module NumQueensModule
 
