@@ -2,6 +2,8 @@
 # https://github.com/jump-dev/JuMP.jl/blob/master/docs/src/tutorials/linear/n-queens.jl
 # usage: julia --project n_queens.jl NUM_QUEENS
 
+module NumQueensModule
+
 using JuMP
 import HiGHS
 import LinearAlgebra
@@ -22,6 +24,4 @@ function solve_n_queens(N::Int64)
     return round.(Int, value.(x))
 end
 
-num_queens= ARGS[1]
-solution = solve_n_queens(num_queens)
-println(solution)
+end
