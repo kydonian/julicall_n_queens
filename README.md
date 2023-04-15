@@ -1,3 +1,8 @@
+# Summary
+This test project prototypes calling Julia from Python with direct calls.
+
+# Commands and output
+
 ```
 $ python direct-call.py 
 solve time 3.7752480506896973
